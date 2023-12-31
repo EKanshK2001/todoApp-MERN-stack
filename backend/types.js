@@ -17,7 +17,7 @@ const createTodo = zod.object({
 });
 
 const updateTodo = zod.object({
-    id: zod.string(),
+    _id: zod.string(),
 });
 
 module.exports = {
